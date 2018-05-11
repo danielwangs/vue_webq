@@ -1,9 +1,9 @@
 <template>
   <div class="bgc1">
-    <div class="container">
-      <Scrollspy />
       <div class="row">
-        <div class="col-sm-2"></div>
+        <div class="col-sm-4">
+          <Scrollspy />
+        </div>
         <!-- Main -->
         <div class="col-sm-8">
           <nav class="navbar navbar-color">
@@ -29,7 +29,6 @@
           </div>
         </div>
       </div>
-    </div>
   </div>
 </template>
 
@@ -51,9 +50,9 @@ export default {
     background-image: url(../assets/background2.jpg);
     background-repeat: repeat;
     background-size: cover;
-    position: fixed;
     height: 100%;
     width: 100%;
     z-index: -888;
+    padding: 30px;
   }
 </style>
