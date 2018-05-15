@@ -74,7 +74,7 @@
     	    <a href="javascript:;" @click="test">忘記密碼? 重發認證信</a> &nbsp;&nbsp;&nbsp;<br><br>
     	    <button  class="btn btn-info" @click="test">FB快速登入</button> &nbsp;&nbsp;&nbsp;
     	    <button  class="btn btn-info" @click="test">G+快速登入</button> <br><br>
-    	    <a href="javascript:;" @click="new_user">還沒有帳號? 註冊一個!</a>
+          <router-link to="/Register">還沒有帳號? 註冊一個!</router-link>
           <p class="errorMessage" v-if="err_flag"> {{errorMessage}} </p>
           <p class="successMessage" v-if="successMessage">{{successMessage}} </p>
         </div>
